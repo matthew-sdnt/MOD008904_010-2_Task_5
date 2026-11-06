@@ -14,6 +14,10 @@ namespace Task_5.Classes
         private string postcode;
 
         //Properties
+        public int Student_ID
+        {
+            get { return this.student_id; }
+        }
         public string First_Name
         {
             get { return this.first_name; }
